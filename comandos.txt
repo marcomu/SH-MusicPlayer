@@ -1,0 +1,28 @@
+ select var in `ls music | grep -E \(\.mp3\)$`
+    do
+
+     if [ "$!" != "" ]
+        then 
+    kill -KILL $!
+
+                
+                
+    afplay music/$var &
+            
+    
+            echo "Reproduciendo: $var "
+            echo "Codigo1: $!"
+        else
+            if [ "$!" == "" ]
+            then
+            afplay music/$var &
+            echo "Reproduciendo: $var "
+            echo "Codigo2: $!"
+            else
+            
+            
+fi
+
+break
+    done
+  

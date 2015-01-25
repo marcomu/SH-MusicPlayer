@@ -1,0 +1,18 @@
+:::::::::::::::: PREBEPLAYER by Markintosh
+Reproductor de Musica escrito en Shell
+BETA 1.0
+
+----------------
+Instrucciones para utilizarlo:
+1.- En el archivo config.txt modificar ruta absoluta donde se encontrará la carpeta de musica
+2.- Ejecutar ./player.sh
+3.- ENJOY!
+
+—————
+El programa utiliza el comando afplayer para reproducir, solo ha sido probado en Sistemas OS X
+- Existen algunos bugs que se deben arreglar, en caso de cualquier problema solo es necesario eliminar el proceso
+	1) ps
+	2) kill [process ID]
+
+
+MIT LICENSE

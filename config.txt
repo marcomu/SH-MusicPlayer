@@ -1,0 +1,4 @@
+#-------Archivo de Configuración-----
+#Esta es la ruta de inicio predeterminada,
+#Modificala para que le indiques al programa donde quieres iniciar.
+RutaExploracion:/Users/Markintosh/Developer/PREBEPLAYER/music/
